@@ -34,8 +34,8 @@ services:
     restart: unless-stopped
     environment:
       # get these values from https://core.telegram.org/api/obtaining_api_id
-      TELEGRAM_API_ID: ""
-      TELEGRAM_API_HASH: ""
+      TELEGRAM_API_ID: "19593445"
+      TELEGRAM_API_HASH: "f78a8ae025c9131d3cc57d9ca0fbbc30"
     command:
       - --dir=/var/lib/telegram-bot-api
       #- --verbosity=2
